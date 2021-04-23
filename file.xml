@@ -1,0 +1,15 @@
+
+
+
+
+
+ <?xml version="1.0" encoding="utf-8"?>
+  <odoo>
+    <template id="assets_backend" name="sib_anpr assets" inherit_id="web.assets_backend">
+      <xpath expr="." position="inside">
+        <script type="text/javascript" src="/sib_anpr/static/src/js/app.js"></script>
+      </xpath>
+    </template>
+  </odoo>      
+
+
